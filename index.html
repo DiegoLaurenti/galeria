@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/modal.css">
+  <link rel="stylesheet" href="css/gallery.theme.css">
+  <link rel="stylesheet" href="css/gallery.min.css">
+  <title>Vem Viajar</title>
+</head>
+
+<body>
+
+  <div class="gallery autoplay items-5">
+    <div id="item-1" class="control-operator"></div>
+    <div id="item-2" class="control-operator"></div>
+    <div id="item-3" class="control-operator"></div>
+    <div id="item-4" class="control-operator"></div>
+    <div id="item-5" class="control-operator"></div>
+
+    <figure class="item">
+      <h1><img src="imagens/foto0.jpg" alt="" onclick="abrirModal()"></h1>
+    </figure>
+
+    <figure class="item">
+      <h1><img src="imagens/foto2.jpg" alt="" onclick="abrirModal2()"></h1>
+    </figure>
+
+    <figure class="item">
+      <h1><img src="imagens/foto3.png" alt="" onclick="abrirModal3()"></h1>
+    </figure>
+
+    <figure class="item">
+      <h1><img src="imagens/foto4.jpg" alt="" onclick="abrirModal4()"></h1>
+    </figure>
+
+    <figure class="item">
+      <h1><img src="imagens/foto5.jpg" alt="" onclick="abrirModal5()"></h1>
+    </figure>
+
+    <div class="controls">
+      <a href="#item-1" class="control-button">•</a>
+      <a href="#item-2" class="control-button">•</a>
+      <a href="#item-3" class="control-button">•</a>
+      <a href="#item-4" class="control-button">•</a>
+      <a href="#item-5" class="control-button">•</a>
+    </div>
+  </div>
+
+  <img src="imagens/foto0.jpg" class="abrir_modal img_modal" onclick="abrirModal()">
+  <div class="fundo_modal" id="modal">
+    <div class="modal">
+      <img src="imagens/foto0.jpg">
+      <span class="fechar" onclick="fecharModal()">&times;</span>
+    </div>
+  </div>
+
+  <img src="imagens/foto2.jpg" class="abrir_modal img_modal" onclick="abrirModal2()">
+  <div class="fundo_modal" id="modal2">
+    <div class="modal">
+      <img src="imagens/foto2.jpg">
+      <span class="fechar" onclick="fecharModal()">&times;</span>
+    </div>
+  </div>
+
+  <img src="imagens/foto3.png" class="abrir_modal img_modal" onclick="abrirModal3()">
+  <div class="fundo_modal" id="modal3">
+    <div class="modal">
+      <img src="imagens/foto3.png">
+      <span class="fechar" onclick="fecharModal()">&times;</span>
+    </div>
+  </div>
+
+  <img src="imagens/foto4.jpg" class="abrir_modal img_modal" onclick="abrirModal4()">
+  <div class="fundo_modal" id="modal4">
+    <div class="modal">
+      <img src="imagens/foto4.jpg">
+      <span class="fechar" onclick="fecharModal()">&times;</span>
+    </div>
+  </div>
+
+  <img src="imagens/foto5.jpg" class="abrir_modal img_modal" onclick="abrirModal5()">
+  <div class="fundo_modal" id="modal5">
+    <div class="modal">
+      <img src="imagens/foto5.jpg">
+      <span class="fechar" onclick="fecharModal()">&times;</span>
+    </div>
+  </div>
+
+
+
+
+  <script src="js/modal.js"></script>
+</body>
+
+</html>
